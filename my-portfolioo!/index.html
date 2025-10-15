@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Sun - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 2rem;
+        }
+        nav a:hover {
+            color: #ddd;
+        }
+        section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .hero {
+            background-color: #f4f4f4;
+            text-align: center;
+            margin-top: 4rem;
+            padding: 6rem 2rem;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .skill-card {
+            background-color: #f4f4f4;
+            padding: 1.5rem;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h2>El Sun</h2>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Data Science Professional | Problem Solver | Innovation Enthusiast</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate data science professional with a strong drive for solving complex problems through data analysis and machine learning. With a keen eye for detail and a commitment to continuous learning, I strive to create impactful solutions that drive business value.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Programming</h3>
+                <p>Python, R, SQL</p>
+            </div>
+            <div class="skill-card">
+                <h3>Machine Learning</h3>
+                <p>Scikit-learn, TensorFlow, PyTorch</p>
+            </div>
+            <div class="skill-card">
+                <h3>Data Analysis</h3>
+                <p>Pandas, NumPy, Matplotlib</p>
+            </div>
+            <div class="skill-card">
+                <h3>Big Data</h3>
+                <p>Spark, Hadoop, PySpark</p>
+            </div>
+            <div class="skill-card">
+                <h3>Visualization</h3>
+                <p>Tableau, Power BI, Seaborn</p>
+            </div>
+            <div class="skill-card">
+                <h3>Statistical Analysis</h3>
+                <p>Hypothesis Testing, Regression, Time Series</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

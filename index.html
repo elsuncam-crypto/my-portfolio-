@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elsun Campbell - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .resume-section {
+            margin-bottom: 3rem;
+        }
+        .resume-section h3 {
+            color: #333;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+        }
+        .experience-item {
+            margin-bottom: 1.5rem;
+        }
+        .experience-item h4 {
+            color: #444;
+            margin-bottom: 0.5rem;
+        }
+        .experience-item .role-date {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+        .experience-item ul {
+            list-style-type: disc;
+            margin-left: 2rem;
+        }
+        .experience-item li {
+            margin-bottom: 0.5rem;
+        }
+        .education-item {
+            margin-bottom: 1.5rem;
+        }
+        .skills-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+
+            text-decoration: none;
+            margin-left: 2rem;
+        }
+        nav a:hover {
+            color: #ddd;
+        }
+        section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .hero {
+            background-color: #f4f4f4;
+            text-align: center;
+            margin-top: 4rem;
+            padding: 6rem 2rem;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .skill-card {
+            background-color: #f4f4f4;
+            padding: 1.5rem;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h2>Elsun Campbell</h2>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#resume">Resume</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Data Science Professional | Problem Solver | Innovation Enthusiast</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Customer-focused professional with diverse experience in retail, food service and online support, excelling in communication, problem-solving, and customer relations. Currently expanding expertise in Information Technology, with a foundational knowledge of coding in Python, hands-on experience with multiple operating systems (Android, Windows, iOS, Chrome), and an introductory understanding of software security. Actively engaged in projects to develop and refine technical skills, demonstrating adaptability and a commitment to continuous learning in the tech industry.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Programming & Development</h3>
+                <p>C, C++, Python</p>
+            </div>
+            <div class="skill-card">
+                <h3>Development Tools</h3>
+                <p>Visual Studio Code</p>
+            </div>
+            <div class="skill-card">
+                <h3>Operating Systems</h3>
+                <p>iOS, Android, Microsoft Windows</p>
+            </div>
+            <div class="skill-card">
+                <h3>Hardware</h3>
+                <p>PC Building & Configuration</p>
+            </div>
+            <div class="skill-card">
+                <h3>Networking</h3>
+                <p>Network Configuration & Design, Visio</p>
+            </div>
+            <div class="skill-card">
+                <h3>Data Science</h3>
+                <p>Pandas, NumPy, Matplotlib, Scikit-learn</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        
+        <div class="resume-section">
+            <h3>Education</h3>
+            <div class="education-item">
+                <h4>Master of Science in Information Technology</h4>
+                <p>Secure Software Development & Quality Assurance</p>
+                <p>Purdue University Global | GPA: 3.73 | February 2025</p>
+            </div>
+            <div class="education-item">
+                <h4>Data Science Bootcamp (In Progress)</h4>
+                <p>TripleTen - Remote</p>
+                <p>Intensive program focusing on Python programming, data analysis, visualization, machine learning, and statistics.</p>
+            </div>
+        </div>
+
+        <div class="resume-section">
+            <h3>Projects & Coursework</h3>
+            <div class="experience-item">
+                <h4>Masters Capstone in Information Technology</h4>
+                <p>Created a navigation tool for an online webpage using Visual Studio Code</p>
+            </div>
+            <div class="experience-item">
+                <h4>System and Security</h4>
+                <p>Created functional tests and security tests for Learning Management System</p>
+            </div>
+            <div class="experience-item">
+                <h4>Secure Coding</h4>
+                <p>Evaluated C and C++ code to identify vulnerabilities</p>
+            </div>
+        </div>
+
+        <div class="resume-section">
+            <h3>Professional Experience</h3>
+            <div class="experience-item">
+                <h4>Team Member - Chick-Fil-A</h4>
+                <p class="role-date">Fall 2022 - Present</p>
+                <ul>
+                    <li>Provided exceptional customer service by ensuring prompt, accurate order fulfillment</li>
+                    <li>Maintained a clean, organized, and compliant work environment</li>
+                    <li>Trained and mentored new employees</li>
+                    <li>Recognized as Employee of the Month in first month</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h4>Teacher's Assistant - Success Academy</h4>
+                <p class="role-date">Fall 2022</p>
+                <ul>
+                    <li>Supported classroom instruction and lesson preparation</li>
+                    <li>Provided one-on-one support to students</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h4>Merchandise Associate - HomeGoods</h4>
+                <p class="role-date">August 2020 - January 2022</p>
+                <ul>
+                    <li>Assisted customers with merchandise handling and transport</li>
+                    <li>Assembled furniture and optimized store layout</li>
+                    <li>Recognized as Employee of the Month twice</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h4>Online Telemarketer - Vector Cutco</h4>
+                <p class="role-date">Summer 2019</p>
+                <ul>
+                    <li>Conducted outbound sales calls for cutlery products</li>
+                    <li>Developed strong communication and persuasion skills</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <div class="contact-info">
+            <p>Springfield Gardens, NY, 11413</p>
+            <p>Phone: (347)-213-6554</p>
+            <p>Email: elsuncam@gmail.com</p>
+        </div>
+    </section>
+</body>
+</html>
